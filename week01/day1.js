@@ -41,9 +41,9 @@ function printExecutionSequence() {
   console.log("수행순서와 값", printLog);
 }
 
-getArea("circle", 10); //31.40
+getArea("circle", 10); //31.41592653589793
 getArea("rect", 10, 15); //150
 getArea("trapezoid", 10, 15, 12); //900
-getArea("circle", 1, 3); // 94.2
-getArea("circl", 10); //정확하게 입력해주세요
-printExecutionSequence();
+getArea("circle", 1, 3); // 43.982297150257104
+getArea("circl", 10); //도형을 정확하게 입력해주세요
+printExecutionSequence(); // circle, 31.41592653589793 // rect, 150 // trapezoid, 900 // circle, 43.982297150257104
